@@ -1,32 +1,28 @@
-# Prerequisites
-*.d
+# Temporary
+Make
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Intermediary files
+bin/
+bin-int/
 
-# Precompiled Headers
-*.gch
-*.pch
+# VS Code files
+.vscode/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Visual Studio files
+.vs/
+*.user
+*.filters
+*.sln
+*.suo
+*.vcxproj
+*_i.c
+*_p.c
+*.ilk
+*.pdb
+*.idb
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
